@@ -1,6 +1,6 @@
 # Titanic Survival Prediction Backend
 
-This project is a Titanic Survival Prediction Backend built using python and FastAPI. It predicts the survival chances of individuals aboard the Titanic based on specific passenger details using a machine learning model. The project includes the backend logic to handle predictions, which is containerized using Docker and Docker Compose.
+This project is a Titanic Survival Prediction Backend built using python and FastAPI. It predicts the survival chances of individuals aboard the Titanic based on specific passenger details using a machine learning model. The project includes the backend logic to handle predictions, which is containerized using Docker and Docker Compose. It also has unti and integration tests to ensure validity of commits.
 
 ## Table of Contents
 
