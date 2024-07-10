@@ -47,10 +47,17 @@ Folder Structure
 
 ```bash
 titanic_modeL_service/
+  app/
+    predictornew.py
+    task.py
+    w_train.csv
   models/
     knn_model.pkl
     logistic_regression_model.pkl
     random_forest_model.pkl
+  tests/
+    test_for_integ.py
+    test_for_predictor.new.py  
   w_train.csv
   w_test.csv
   predictornew.py
@@ -59,12 +66,15 @@ titanic_modeL_service/
   docker-compose.yml
   requirements.txt
   README.md
-```  
-models/: Contains the pre-trained machine learning models.
-predictornew.py: Script for data preprocessing and model prediction.
-task.py: Main FastAPI application file.
-Dockerfile: Dockerfile for containerizing the application.
-docker-compose.yml: Docker Compose file to run the application.
-requirements.txt: Python dependencies required for the application.
-README.md: Documentation for the backend application.
+
+```
+app/:contains pipeline related versions of py scripts. \n
+models/: Contains the pre-trained machine learning models. \n
+tests/:contains unit and integration tests for model service. \n
+predictornew.py: Script for data preprocessing and model prediction. \n
+task.py: Main FastAPI application file. \n
+Dockerfile: Dockerfile for containerizing the application. \n
+docker-compose.yml: Docker Compose file to run the application. \n
+requirements.txt: Python dependencies required for the application. \n
+README.md: Documentation for the backend application. \n
 
