@@ -68,13 +68,13 @@ titanic_modeL_service/
   README.md
 
 ```
-app/:contains pipeline related versions of py scripts. \n
-models/: Contains the pre-trained machine learning models. \n
-tests/:contains unit and integration tests for model service. \n
-predictornew.py: Script for data preprocessing and model prediction. \n
-task.py: Main FastAPI application file. \n
-Dockerfile: Dockerfile for containerizing the application. \n
-docker-compose.yml: Docker Compose file to run the application. \n
-requirements.txt: Python dependencies required for the application. \n
-README.md: Documentation for the backend application. \n
+app/:contains pipeline related versions of py scripts. 
+models/: Contains the pre-trained machine learning models. 
+tests/:contains unit and integration tests for model service. 
+predictornew.py: Script for data preprocessing and model prediction. 
+task.py: Main FastAPI application file. 
+Dockerfile: Dockerfile for containerizing the application. 
+docker-compose.yml: Docker Compose file to run the application. 
+requirements.txt: Python dependencies required for the application. 
+README.md: Documentation for the backend application. 
 
